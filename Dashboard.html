@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0px;
+}
+
+.page-container {
+height: 100vh;
+display: flex;
+}
+
+.page-body {
+flex-grow: 1;
+overflow-y: auto;
+display: flex;
+}
+
+.sidebar {
+width: 200px;
+padding: 10px;
+background-color: #002159;
+font-size: 20px;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+}
+
+.options-container {
+flex-grow: 1;
+}
+
+.option-container {
+display: flex;
+align-items: center;
+padding-top: 2px;
+padding-bottom: 2px;
+padding-left: 12px;
+}
+
+.option-icon {
+color: #ffffff;
+font-size: 16px;
+}
+
+.profile-container {
+display: flex;
+align-items: center;
+margin-left: 12px;
+}
+
+.profile-image {
+width: 30px;
+}
+
+.favorites-container {
+display: flex;
+flex-direction: column;
+background-color: #ffffff;
+overflow-y: auto;
+flex-grow: 1;
+}
+
+.image-container {
+display: flex;
+margin-bottom: 10px;
+flex-wrap: wrap;
+}
+
+.image {
+width: 80px;
+height: 60px;
+margin-right: 5px;
+}
